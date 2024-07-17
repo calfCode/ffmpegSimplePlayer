@@ -1,0 +1,14 @@
+prefix=/Bspace/sourceCode/ffmpeg-6.0.1/android/armv7-a
+exec_prefix=${prefix}
+libdir=/Bspace/sourceCode/ffmpeg-6.0.1/android/armv7-a/lib
+includedir=/Bspace/sourceCode/ffmpeg-6.0.1/android/armv7-a/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 60.3.100
+Requires: libswresample >= 4.10.100, libavutil >= 58.2.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavcodec -pthread -lm -latomic -lz
+Libs.private: 
+Cflags: -I${includedir}

@@ -1,0 +1,67 @@
+{
+  "buildFiles": [
+    "F:\\debug\\sdlproject\\sdlproject\\app\\jni\\CMakeLists.txt",
+    "F:\\debug\\sdlproject\\sdlproject\\app\\jni\\SDL2\\CMakeLists.txt",
+    "F:\\debug\\sdlproject\\sdlproject\\app\\jni\\SDL2_image\\CMakeLists.txt",
+    "F:\\debug\\sdlproject\\sdlproject\\app\\jni\\SDL2_image\\external\\libpng\\CMakeLists.txt",
+    "F:\\debug\\sdlproject\\sdlproject\\app\\jni\\SDL2_mixer\\CMakeLists.txt",
+    "F:\\debug\\sdlproject\\sdlproject\\app\\jni\\src\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "F:\\android_sdk\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "F:\\debug\\sdlproject\\sdlproject\\app\\.cxx\\Debug\\3u1m42i2\\armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "F:\\android_sdk\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "F:\\debug\\sdlproject\\sdlproject\\app\\.cxx\\Debug\\3u1m42i2\\armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "SDL2_image::@9bbb07d492979a4229a2": {
+      "artifactName": "SDL2_image",
+      "abi": "armeabi-v7a",
+      "output": "F:\\debug\\sdlproject\\sdlproject\\app\\build\\intermediates\\cxx\\Debug\\3u1m42i2\\obj\\armeabi-v7a\\libSDL2_image.so",
+      "runtimeFiles": [
+        "F:\\debug\\sdlproject\\sdlproject\\app\\build\\intermediates\\cxx\\Debug\\3u1m42i2\\obj\\armeabi-v7a\\libpng.so",
+        "F:\\debug\\sdlproject\\sdlproject\\app\\build\\intermediates\\cxx\\Debug\\3u1m42i2\\obj\\armeabi-v7a\\libSDL2.so"
+      ]
+    },
+    "main::@145eef247bfb46b6828c": {
+      "artifactName": "main",
+      "abi": "armeabi-v7a",
+      "output": "F:\\debug\\sdlproject\\sdlproject\\app\\build\\intermediates\\cxx\\Debug\\3u1m42i2\\obj\\armeabi-v7a\\libmain.so",
+      "runtimeFiles": [
+        "F:\\debug\\sdlproject\\sdlproject\\app\\build\\intermediates\\cxx\\Debug\\3u1m42i2\\obj\\armeabi-v7a\\libSDL2_image.so",
+        "F:\\debug\\sdlproject\\sdlproject\\app\\build\\intermediates\\cxx\\Debug\\3u1m42i2\\obj\\armeabi-v7a\\libSDL2_mixer.so",
+        "F:\\debug\\sdlproject\\sdlproject\\app\\jni\\SDL2_ttf\\armeabi-v7a\\libSDL2_ttf.so",
+        "F:\\debug\\sdlproject\\sdlproject\\app\\build\\intermediates\\cxx\\Debug\\3u1m42i2\\obj\\armeabi-v7a\\libpng.so",
+        "F:\\debug\\sdlproject\\sdlproject\\app\\build\\intermediates\\cxx\\Debug\\3u1m42i2\\obj\\armeabi-v7a\\libSDL2.so"
+      ]
+    },
+    "png::@0192c5d8b9ab1864d47d": {
+      "artifactName": "png",
+      "abi": "armeabi-v7a",
+      "output": "F:\\debug\\sdlproject\\sdlproject\\app\\build\\intermediates\\cxx\\Debug\\3u1m42i2\\obj\\armeabi-v7a\\libpng.so",
+      "runtimeFiles": []
+    },
+    "SDL2_mixer::@d3b562593427a7481865": {
+      "artifactName": "SDL2_mixer",
+      "abi": "armeabi-v7a",
+      "output": "F:\\debug\\sdlproject\\sdlproject\\app\\build\\intermediates\\cxx\\Debug\\3u1m42i2\\obj\\armeabi-v7a\\libSDL2_mixer.so",
+      "runtimeFiles": [
+        "F:\\debug\\sdlproject\\sdlproject\\app\\build\\intermediates\\cxx\\Debug\\3u1m42i2\\obj\\armeabi-v7a\\libSDL2.so"
+      ]
+    },
+    "SDL2::@64fabd2bc978e414570d": {
+      "artifactName": "SDL2",
+      "abi": "armeabi-v7a",
+      "output": "F:\\debug\\sdlproject\\sdlproject\\app\\build\\intermediates\\cxx\\Debug\\3u1m42i2\\obj\\armeabi-v7a\\libSDL2.so",
+      "runtimeFiles": []
+    }
+  }
+}

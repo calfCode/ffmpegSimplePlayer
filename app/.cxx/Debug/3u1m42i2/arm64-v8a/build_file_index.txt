@@ -1,0 +1,6 @@
+F:\debug\sdlproject\sdlproject\app\jni\CMakeLists.txt
+F:\debug\sdlproject\sdlproject\app\jni\SDL2\CMakeLists.txt
+F:\debug\sdlproject\sdlproject\app\jni\SDL2_image\CMakeLists.txt
+F:\debug\sdlproject\sdlproject\app\jni\SDL2_image\external\libpng\CMakeLists.txt
+F:\debug\sdlproject\sdlproject\app\jni\SDL2_mixer\CMakeLists.txt
+F:\debug\sdlproject\sdlproject\app\jni\src\CMakeLists.txt

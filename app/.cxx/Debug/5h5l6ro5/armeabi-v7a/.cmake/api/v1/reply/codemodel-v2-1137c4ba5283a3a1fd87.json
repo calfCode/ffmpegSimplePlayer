@@ -1,0 +1,193 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "SDL2",
+					"jsonFile" : "directory-SDL2-Debug-33023a0b33db92e3fb7e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SDL2",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "SDL2_image",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-SDL2_image-Debug-9be05341406b6cfd408d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SDL2_image",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "SDL2_image/external/libpng",
+					"jsonFile" : "directory-SDL2_image.external.libpng-Debug-8a08e3a473f529d3e591.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "SDL2_image/external/libpng",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "SDL2_mixer",
+					"jsonFile" : "directory-SDL2_mixer-Debug-f74a50ee6585a011ecb7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SDL2_mixer",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "GAME",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "MY_APP",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2::@64fabd2bc978e414570d",
+					"jsonFile" : "target-SDL2-Debug-c3e7ff90911bcc1835f0.json",
+					"name" : "SDL2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL2_image::@9bbb07d492979a4229a2",
+					"jsonFile" : "target-SDL2_image-Debug-c919378982d736815d11.json",
+					"name" : "SDL2_image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SDL2_mixer::@d3b562593427a7481865",
+					"jsonFile" : "target-SDL2_mixer-Debug-b9ad24f71a1a14d0c5b6.json",
+					"name" : "SDL2_mixer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "main::@145eef247bfb46b6828c",
+					"jsonFile" : "target-main-Debug-08d932420b4843a9ba80.json",
+					"name" : "main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "png::@0192c5d8b9ab1864d47d",
+					"jsonFile" : "target-png-Debug-6214b8c4c9576f8f8b39.json",
+					"name" : "png",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/learning/ffmpeg/sdlproject_v11_add_ffmpeg_6_0_1/app/.cxx/Debug/5h5l6ro5/armeabi-v7a",
+		"source" : "D:/learning/ffmpeg/sdlproject_v11_add_ffmpeg_6_0_1/app/jni"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
