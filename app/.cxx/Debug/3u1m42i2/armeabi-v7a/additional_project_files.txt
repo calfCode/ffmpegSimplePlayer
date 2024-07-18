@@ -1,1 +1,0 @@
-F:\debug\sdlproject\sdlproject\app\jni\SDL2_image\external\libpng\arm\filter_neon.S

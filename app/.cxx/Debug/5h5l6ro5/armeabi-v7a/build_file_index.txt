@@ -1,6 +1,0 @@
-D:\learning\ffmpeg\sdlproject_v11_add_ffmpeg_6_0_1\app\jni\CMakeLists.txt
-D:\learning\ffmpeg\sdlproject_v11_add_ffmpeg_6_0_1\app\jni\SDL2\CMakeLists.txt
-D:\learning\ffmpeg\sdlproject_v11_add_ffmpeg_6_0_1\app\jni\SDL2_image\CMakeLists.txt
-D:\learning\ffmpeg\sdlproject_v11_add_ffmpeg_6_0_1\app\jni\SDL2_image\external\libpng\CMakeLists.txt
-D:\learning\ffmpeg\sdlproject_v11_add_ffmpeg_6_0_1\app\jni\SDL2_mixer\CMakeLists.txt
-D:\learning\ffmpeg\sdlproject_v11_add_ffmpeg_6_0_1\app\jni\src\CMakeLists.txt
