@@ -120,7 +120,7 @@ struct FFmpegPlayerCtx {
     {
         audio_frame = av_frame_alloc();
         audio_pkt = av_packet_alloc();
-
+        seek_req =0;
         pictq_mutex = SDL_CreateMutex();
         pictq_cond  = SDL_CreateCond();
     }
